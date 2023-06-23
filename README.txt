@@ -3,8 +3,8 @@ Here the code and data belonging to the paper from Leupold/Weigel/Bär is provid
 i) Simulations
 --------------
 
-The simulations are presented in different figures in the paper, a script named fig*_script.m is provided to reproduce any figure. Note all these scripts call the function epg_rfps.m
-Forther explanation is given in the header of the individual scripts. (E.g., to reproduce Fig 6, the variable "substance" has to be manually set in the code.)
+The simulations are presented in different figures in the paper, a script named fig*_script.m is provided to reproduce any figure. Note all these scripts call the function epg_rfsp.m
+Further explanation is given in the header of the individual scripts. (E.g., to reproduce Fig 6, the variable "substance" has to be manually set in the code.)
 
 ii) Data
 --------------
