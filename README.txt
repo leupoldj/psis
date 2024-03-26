@@ -1,4 +1,4 @@
-Here the code and data belonging to the paper from Leupold/Weigel/Bär is provided.
+Here the code and data belonging to the paper from Leupold/Weigel/Bär ("On the choice of the phase difference increment in radiofrequency-spoiled gradient-echo magnetic resonance imaging of liquids with consideration of diffusion") is provided.
 
 i) Simulations
 --------------
@@ -8,4 +8,8 @@ Further explanation is given in the header of the individual scripts. (E.g., to 
 
 ii) Data
 --------------
-The SNR data points as displayed in Fig.3 are provided in fig3_script.m, below the comments "%snr data per flip angle for silicone oil" and "%snr data for H20 + CuSO4", respectively.
+The calculation of the SNR data points as displayed in Fig.3 are provided by the following files:
+- h2o_images.mat: A MATLAB-matrix containing the images used for ROI analysis of the H2O+CuSO4 phantom
+- sil_images.mat: A MATLAB-matrix containing the images used for ROI analysis of the silicone oil phantom
+- rois_h2o.m: ROI analysis of the H2O+CuSO4 phantom. Output: SNR values as displayed in Fig. 3
+- rois_silicone.m: ROI analysis of the silicone oil phantom. Output: SNR values as displayed in Fig. 3
